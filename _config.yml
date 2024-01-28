@@ -116,3 +116,9 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "GTM-MF9338WT"
+    anonymize_ip: false # default
